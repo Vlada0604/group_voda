@@ -1,3 +1,4 @@
+// Віолета
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -118,3 +119,117 @@ body {
   left: 20px;
   font-size: 14px;
 }
+//Андрій
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  width: 600px;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+/* Велике коло зліва */
+.circle-big {
+  position: absolute;
+  top: 50px;
+  left: -120px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #6FA8DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Маленькі кола справа */
+.circle-small1 {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #9FC5E8;
+}
+
+.circle-small2 {
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #B4C7E7;
+}
+
+/* Панель з інпутами */
+.panel {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 50px auto;
+  width: 250px;
+  text-align: left;
+}
+
+.panel label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.panel input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Кнопка */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #6E86C2;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5a6fa7;
+}
+
+/* Відсоток */
+.percent {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Дата */
+.date {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 14px;
+}
+
+
